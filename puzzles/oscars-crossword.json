@@ -1,7 +1,7 @@
 {
   "title": "Oscars Crossword",
-  "rows": 34,
-  "cols": 30,
+  "rows": 29,
+  "cols": 23,
   "grid": [
     [
       {
@@ -42,5379 +42,3627 @@
       {
         "row": 0,
         "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 13,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 26,
-        "solution": "S",
-        "isBlock": false,
-        "number": 7
-      },
-      {
-        "row": 0,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 0,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 1,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 13,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 26,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 1,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 1,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 2,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 13,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 26,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 2,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 2,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 3,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 13,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 26,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 3,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 3,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 4,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 6,
-        "solution": "D",
-        "isBlock": false,
-        "number": 9
-      },
-      {
-        "row": 4,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 13,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 4,
-        "col": 18,
         "solution": "T",
         "isBlock": false,
-        "number": 8
+        "number": 1
       },
       {
-        "row": 4,
-        "col": 19,
-        "solution": "O",
-        "isBlock": false
+        "row": 0,
+        "col": 8,
+        "isBlock": true
       },
       {
-        "row": 4,
-        "col": 20,
-        "solution": "M",
-        "isBlock": false
+        "row": 0,
+        "col": 9,
+        "isBlock": true
       },
       {
-        "row": 4,
-        "col": 21,
+        "row": 0,
+        "col": 10,
+        "isBlock": true
+      },
+      {
+        "row": 0,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 0,
+        "col": 12,
         "solution": "C",
-        "isBlock": false
-      },
-      {
-        "row": 4,
-        "col": 22,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 4,
-        "col": 23,
-        "solution": "U",
-        "isBlock": false
-      },
-      {
-        "row": 4,
-        "col": 24,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 4,
-        "col": 25,
-        "solution": "S",
         "isBlock": false,
         "number": 2
       },
       {
-        "row": 4,
-        "col": 26,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 4,
-        "col": 27,
+        "row": 0,
+        "col": 13,
         "isBlock": true
       },
       {
-        "row": 4,
-        "col": 28,
+        "row": 0,
+        "col": 14,
         "isBlock": true
       },
       {
-        "row": 4,
-        "col": 29,
+        "row": 0,
+        "col": 15,
         "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 5,
-        "col": 0,
-        "solution": "E",
-        "isBlock": false,
-        "number": 4
       },
       {
-        "row": 5,
-        "col": 1,
-        "solution": "M",
-        "isBlock": false
+        "row": 0,
+        "col": 16,
+        "isBlock": true
       },
       {
-        "row": 5,
-        "col": 2,
-        "solution": "M",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 3,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 4,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 5,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 6,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 7,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 8,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 9,
-        "solution": "B",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 10,
-        "solution": "A",
-        "isBlock": false,
-        "number": 6
-      },
-      {
-        "row": 5,
-        "col": 11,
+        "row": 0,
+        "col": 17,
         "solution": "T",
         "isBlock": false,
         "number": 3
       },
       {
-        "row": 5,
-        "col": 12,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 13,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 14,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 15,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 16,
-        "solution": "F",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 17,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 5,
+        "row": 0,
         "col": 18,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 19,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 20,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 21,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 22,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 23,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 24,
-        "solution": "H",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 25,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 26,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 5,
-        "col": 27,
         "isBlock": true
       },
       {
-        "row": 5,
-        "col": 28,
-        "solution": "C",
+        "row": 0,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 0,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 0,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 0,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 1,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "isBlock": true
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "solution": "K",
         "isBlock": false,
-        "number": 14
+        "number": 4
       },
       {
-        "row": 5,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 6,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 6,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 10,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 11,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 6,
-        "col": 13,
-        "solution": "H",
-        "isBlock": false,
-        "number": 12
-      },
-      {
-        "row": 6,
-        "col": 14,
-        "solution": "U",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 15,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 16,
-        "solution": "U",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 17,
-        "solution": "D",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 18,
-        "solution": "W",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 19,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 20,
-        "solution": "G",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 21,
-        "solution": "G",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 22,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 23,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 24,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 25,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 26,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 27,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 28,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 6,
-        "col": 29,
-        "solution": "N",
-        "isBlock": false
-      }
-    ],
-    [
-      {
-        "row": 7,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 6,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 7,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 10,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 7,
-        "col": 11,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 7,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 13,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 24,
-        "solution": "M",
-        "isBlock": false
-      },
-      {
-        "row": 7,
-        "col": 25,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 7,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 7,
-        "col": 28,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 7,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 8,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 6,
-        "solution": "Y",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 10,
-        "solution": "B",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 11,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 12,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 13,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 14,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 15,
-        "solution": "D",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 16,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 17,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 18,
-        "solution": "Y",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 19,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 20,
-        "solution": "U",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 24,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 25,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 8,
-        "col": 28,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 8,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 9,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 9,
+        "row": 1,
         "col": 6,
         "solution": "P",
         "isBlock": false
       },
       {
-        "row": 9,
+        "row": 1,
         "col": 7,
-        "isBlock": true
+        "solution": "O",
+        "isBlock": false
       },
       {
-        "row": 9,
+        "row": 1,
         "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 10,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 11,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 13,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 15,
-        "solution": "M",
-        "isBlock": false,
-        "number": 1
-      },
-      {
-        "row": 9,
-        "col": 16,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 17,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 18,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 19,
-        "solution": "Y",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 20,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 21,
-        "solution": "U",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 22,
         "solution": "P",
         "isBlock": false
       },
       {
-        "row": 9,
-        "col": 23,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 24,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 25,
-        "solution": "M",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 26,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 9,
-        "col": 28,
-        "solution": "U",
-        "isBlock": false
-      },
-      {
-        "row": 9,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 10,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 6,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 10,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 10,
+        "row": 1,
         "col": 9,
         "isBlock": true
       },
       {
-        "row": 10,
+        "row": 1,
         "col": 10,
-        "solution": "M",
-        "isBlock": false
+        "isBlock": true
       },
       {
-        "row": 10,
+        "row": 1,
         "col": 11,
-        "solution": "D",
-        "isBlock": false
+        "isBlock": true
       },
       {
-        "row": 10,
+        "row": 1,
         "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 13,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 10,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 19,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 10,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 24,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 10,
-        "col": 25,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 10,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 10,
-        "col": 28,
-        "solution": "M",
-        "isBlock": false
-      },
-      {
-        "row": 10,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 11,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 6,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 11,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 10,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 11,
-        "col": 11,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 11,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 13,
-        "solution": "G",
-        "isBlock": false
-      },
-      {
-        "row": 11,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 19,
-        "solution": "M",
-        "isBlock": false
-      },
-      {
-        "row": 11,
-        "col": 20,
-        "solution": "M",
-        "isBlock": false,
-        "number": 13
-      },
-      {
-        "row": 11,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 25,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 11,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 11,
-        "col": 28,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 11,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 12,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 6,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 12,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 10,
-        "solution": "N",
-        "isBlock": false,
-        "number": 11
-      },
-      {
-        "row": 12,
-        "col": 11,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 12,
-        "col": 12,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 12,
-        "col": 13,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 12,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 19,
-        "solution": "Y",
-        "isBlock": false
-      },
-      {
-        "row": 12,
-        "col": 20,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 12,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 25,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 12,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 12,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 13,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 6,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 8,
-        "solution": "C",
-        "isBlock": false,
-        "number": 10
-      },
-      {
-        "row": 13,
-        "col": 9,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 10,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 11,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 12,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 13,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 14,
-        "solution": "B",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 15,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 16,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 17,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 18,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 19,
-        "solution": "M",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 20,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 25,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 13,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 13,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 14,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 6,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 8,
         "solution": "H",
         "isBlock": false
       },
       {
-        "row": 14,
-        "col": 9,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 10,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 11,
-        "solution": "M",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 12,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 14,
+        "row": 1,
         "col": 13,
-        "solution": "T",
-        "isBlock": false
+        "isBlock": true
       },
       {
-        "row": 14,
+        "row": 1,
         "col": 14,
-        "solution": "H",
-        "isBlock": false
+        "isBlock": true
       },
       {
-        "row": 14,
+        "row": 1,
         "col": 15,
-        "solution": "E",
-        "isBlock": false
+        "isBlock": true
       },
       {
-        "row": 14,
+        "row": 1,
         "col": 16,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 17,
-        "solution": "C",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 18,
-        "solution": "H",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 19,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 20,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 21,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 22,
-        "solution": "M",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 23,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 24,
-        "solution": "T",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 25,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 14,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 14,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 15,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 8,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 11,
         "solution": "S",
         "isBlock": false,
         "number": 5
       },
       {
-        "row": 15,
-        "col": 12,
-        "solution": "K",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 13,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 14,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 15,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 16,
-        "solution": "G",
-        "isBlock": false
-      },
-      {
-        "row": 15,
+        "row": 1,
         "col": 17,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 18,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 19,
-        "solution": "D",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 20,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 21,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 22,
-        "solution": "B",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 23,
-        "solution": "Y",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 25,
-        "solution": "V",
-        "isBlock": false
-      },
-      {
-        "row": 15,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 15,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 16,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 8,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 16,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 12,
-        "solution": "P",
-        "isBlock": false
-      },
-      {
-        "row": 16,
-        "col": 13,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 16,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 17,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 16,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 19,
         "solution": "I",
         "isBlock": false
       },
       {
-        "row": 16,
-        "col": 20,
+        "row": 1,
+        "col": 18,
         "solution": "N",
         "isBlock": false
       },
       {
-        "row": 16,
+        "row": 1,
+        "col": 19,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 1,
+        "col": 20,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 1,
+        "col": 21,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 1,
+        "col": 22,
+        "solution": "S",
+        "isBlock": false
+      }
+    ],
+    [
+      {
+        "row": 2,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 7,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "solution": "M",
+        "isBlock": false,
+        "number": 6
+      },
+      {
+        "row": 2,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 12,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 2,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 17,
+        "solution": "G",
+        "isBlock": false
+      },
+      {
+        "row": 2,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 2,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 2,
         "col": 21,
         "isBlock": true
       },
       {
-        "row": 16,
+        "row": 2,
         "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 25,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 16,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 16,
-        "col": 29,
         "isBlock": true
       }
     ],
     [
       {
-        "row": 17,
+        "row": 3,
         "col": 0,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 1,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 2,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 3,
-        "isBlock": true
+        "solution": "D",
+        "isBlock": false,
+        "number": 7
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 4,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 5,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 6,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 7,
-        "isBlock": true
+        "solution": "C",
+        "isBlock": false,
+        "number": 8
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 8,
-        "solution": "E",
+        "solution": "O",
         "isBlock": false
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 9,
-        "isBlock": true
+        "solution": "N",
+        "isBlock": false
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 10,
-        "isBlock": true
+        "solution": "A",
+        "isBlock": false
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 11,
-        "isBlock": true
+        "solution": "N",
+        "isBlock": false
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 12,
         "solution": "O",
         "isBlock": false
       },
       {
-        "row": 17,
+        "row": 3,
         "col": 13,
+        "solution": "B",
+        "isBlock": false
+      },
+      {
+        "row": 3,
+        "col": 14,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 3,
+        "col": 15,
+        "solution": "I",
+        "isBlock": false
+      },
+      {
+        "row": 3,
+        "col": 16,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 3,
+        "col": 17,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 3,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 3,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 3,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 3,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 3,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 4,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 3,
         "solution": "O",
         "isBlock": false
       },
       {
-        "row": 17,
+        "row": 4,
+        "col": 4,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 7,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 4,
+        "col": 8,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 10,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 4,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 12,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 4,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 4,
         "col": 14,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 4,
         "col": 15,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 4,
         "col": 16,
         "isBlock": true
       },
       {
-        "row": 17,
+        "row": 4,
+        "col": 17,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 4,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 4,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 5,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 7,
+        "solution": "U",
+        "isBlock": false
+      },
+      {
+        "row": 5,
+        "col": 8,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 10,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 5,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 12,
+        "solution": "Z",
+        "isBlock": false
+      },
+      {
+        "row": 5,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 14,
+        "solution": "C",
+        "isBlock": false,
+        "number": 9
+      },
+      {
+        "row": 5,
+        "col": 15,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 5,
+        "col": 16,
+        "solution": "S",
+        "isBlock": false
+      },
+      {
+        "row": 5,
         "col": 17,
         "solution": "T",
         "isBlock": false
       },
       {
-        "row": 17,
+        "row": 5,
         "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 17,
-        "col": 19,
-        "solution": "G",
-        "isBlock": false
-      },
-      {
-        "row": 17,
-        "col": 20,
-        "solution": "B",
-        "isBlock": false
-      },
-      {
-        "row": 17,
-        "col": 21,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 17,
-        "col": 22,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 17,
-        "col": 23,
-        "solution": "Z",
-        "isBlock": false
-      },
-      {
-        "row": 17,
-        "col": 24,
         "solution": "I",
         "isBlock": false
       },
       {
-        "row": 17,
-        "col": 25,
+        "row": 5,
+        "col": 19,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 5,
+        "col": 20,
+        "solution": "G",
+        "isBlock": false
+      },
+      {
+        "row": 5,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 5,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 6,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "solution": "B",
+        "isBlock": false,
+        "number": 10
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "solution": "Z",
+        "isBlock": false
+      },
+      {
+        "row": 6,
+        "col": 7,
+        "solution": "I",
+        "isBlock": false
+      },
+      {
+        "row": 6,
+        "col": 8,
         "solution": "L",
         "isBlock": false
       },
       {
-        "row": 17,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 17,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 17,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 17,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 18,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 8,
-        "solution": "Z",
-        "isBlock": false
-      },
-      {
-        "row": 18,
+        "row": 6,
         "col": 9,
         "isBlock": true
       },
       {
-        "row": 18,
+        "row": 6,
         "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 12,
-        "solution": "P",
-        "isBlock": false
-      },
-      {
-        "row": 18,
-        "col": 13,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 18,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 17,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 18,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 19,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 18,
-        "col": 20,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 18,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 25,
-        "solution": "U",
-        "isBlock": false
-      },
-      {
-        "row": 18,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 18,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 19,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 8,
-        "solution": "H",
-        "isBlock": false
-      },
-      {
-        "row": 19,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 13,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 19,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 17,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 19,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 19,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 19,
-        "col": 20,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 19,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 25,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 19,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 19,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 20,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 7,
-        "solution": "W",
-        "isBlock": false,
-        "number": 15
-      },
-      {
-        "row": 20,
-        "col": 8,
-        "solution": "A",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 9,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 10,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 11,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 12,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 13,
-        "solution": "B",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 14,
-        "solution": "R",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 15,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 16,
-        "solution": "S",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 17,
-        "solution": "G",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 20,
-        "solution": "N",
-        "isBlock": false
-      },
-      {
-        "row": 20,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 20,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 21,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 8,
-        "solution": "O",
-        "isBlock": false
-      },
-      {
-        "row": 21,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 13,
         "solution": "Y",
         "isBlock": false
       },
       {
-        "row": 21,
-        "col": 14,
+        "row": 6,
+        "col": 11,
         "isBlock": true
       },
       {
-        "row": 21,
+        "row": 6,
+        "col": 12,
+        "solution": "H",
+        "isBlock": false
+      },
+      {
+        "row": 6,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 6,
+        "col": 14,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 6,
         "col": 15,
         "isBlock": true
       },
       {
-        "row": 21,
+        "row": 6,
         "col": 16,
         "isBlock": true
       },
       {
-        "row": 21,
+        "row": 6,
         "col": 17,
-        "isBlock": true
+        "solution": "A",
+        "isBlock": false
       },
       {
-        "row": 21,
+        "row": 6,
         "col": 18,
         "isBlock": true
       },
       {
-        "row": 21,
+        "row": 6,
         "col": 19,
         "isBlock": true
       },
       {
-        "row": 21,
+        "row": 6,
         "col": 20,
-        "solution": "D",
-        "isBlock": false
+        "isBlock": true
       },
       {
-        "row": 21,
+        "row": 6,
         "col": 21,
         "isBlock": true
       },
       {
-        "row": 21,
+        "row": 6,
         "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 21,
-        "col": 29,
         "isBlock": true
       }
     ],
     [
       {
-        "row": 22,
+        "row": 7,
         "col": 0,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 1,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 2,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 3,
-        "isBlock": true
+        "solution": "Y",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 4,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 5,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 6,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 7,
-        "isBlock": true
+        "solution": "S",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 8,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 9,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 10,
-        "isBlock": true
+        "solution": "S",
+        "isBlock": false,
+        "number": 11
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 11,
-        "isBlock": true
+        "solution": "K",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 12,
-        "isBlock": true
+        "solution": "A",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 13,
         "solution": "R",
         "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 14,
-        "isBlock": true
+        "solution": "S",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 15,
-        "isBlock": true
+        "solution": "G",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 16,
-        "isBlock": true
+        "solution": "A",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 17,
-        "isBlock": true
+        "solution": "R",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 18,
-        "isBlock": true
+        "solution": "D",
+        "isBlock": false
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 19,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 20,
-        "solution": "O",
-        "isBlock": false
+        "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 21,
         "isBlock": true
       },
       {
-        "row": 22,
+        "row": 7,
         "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 22,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 22,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 22,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 22,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 22,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 22,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 22,
-        "col": 29,
         "isBlock": true
       }
     ],
     [
       {
-        "row": 23,
+        "row": 8,
         "col": 0,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 1,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 2,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 3,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 4,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 5,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 6,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 7,
-        "isBlock": true
+        "solution": "E",
+        "isBlock": false
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 8,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 9,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 10,
-        "isBlock": true
+        "solution": "U",
+        "isBlock": false
       },
       {
-        "row": 23,
+        "row": 8,
         "col": 11,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 8,
+        "col": 12,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 8,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 8,
+        "col": 14,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 8,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 8,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 8,
+        "col": 17,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 8,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 8,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 8,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 8,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 8,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 9,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 8,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 10,
+        "solution": "P",
+        "isBlock": false
+      },
+      {
+        "row": 9,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 9,
         "col": 12,
         "isBlock": true
       },
       {
-        "row": 23,
+        "row": 9,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 14,
+        "solution": "U",
+        "isBlock": false
+      },
+      {
+        "row": 9,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 9,
+        "col": 22,
+        "solution": "W",
+        "isBlock": false,
+        "number": 12
+      }
+    ],
+    [
+      {
+        "row": 10,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "solution": "D",
+        "isBlock": false,
+        "number": 13
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "solution": "S",
+        "isBlock": false,
+        "number": 14
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 8,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 10,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 10,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 14,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 10,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 10,
+        "col": 22,
+        "solution": "A",
+        "isBlock": false
+      }
+    ],
+    [
+      {
+        "row": 11,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "solution": "O",
+        "isBlock": false,
+        "number": 15
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "solution": "B",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 7,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 9,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 10,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 11,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 12,
+        "solution": "F",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 13,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 14,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 15,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 16,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 17,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 18,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 19,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 20,
+        "solution": "H",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 21,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 11,
+        "col": 22,
+        "solution": "R",
+        "isBlock": false
+      }
+    ],
+    [
+      {
+        "row": 12,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 8,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 10,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 12,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 12,
+        "col": 22,
+        "solution": "N",
+        "isBlock": false
+      }
+    ],
+    [
+      {
+        "row": 13,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "solution": "T",
+        "isBlock": false,
+        "number": 16
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "solution": "I",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 6,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 7,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 8,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 9,
+        "solution": "H",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 10,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 11,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 12,
+        "solution": "C",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 13,
+        "solution": "H",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 14,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 15,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 16,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 17,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 18,
+        "solution": "E",
+        "isBlock": false,
+        "number": 17
+      },
+      {
+        "row": 13,
+        "col": 19,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 13,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 13,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 13,
+        "col": 22,
+        "solution": "E",
+        "isBlock": false
+      }
+    ],
+    [
+      {
+        "row": 14,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "solution": "Y",
+        "isBlock": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "solution": "I",
+        "isBlock": false
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 8,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 10,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 18,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 14,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 14,
+        "col": 22,
+        "solution": "R",
+        "isBlock": false
+      }
+    ],
+    [
+      {
+        "row": 15,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "solution": "P",
+        "isBlock": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 15,
+        "col": 4,
+        "solution": "M",
+        "isBlock": false,
+        "number": 18
+      },
+      {
+        "row": 15,
+        "col": 5,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 15,
+        "col": 6,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 15,
+        "col": 7,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 15,
+        "col": 8,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 15,
+        "col": 9,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 15,
+        "col": 10,
+        "solution": "B",
+        "isBlock": false
+      },
+      {
+        "row": 15,
+        "col": 11,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 15,
+        "col": 12,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 15,
         "col": 13,
         "solution": "N",
         "isBlock": false
       },
       {
-        "row": 23,
+        "row": 15,
         "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 23,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 24,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 13,
-        "solution": "E",
-        "isBlock": false
-      },
-      {
-        "row": 24,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 24,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 25,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 13,
-        "solution": "I",
-        "isBlock": false
-      },
-      {
-        "row": 25,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 25,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 26,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 13,
-        "solution": "L",
-        "isBlock": false
-      },
-      {
-        "row": 26,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 26,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 27,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 13,
         "solution": "D",
         "isBlock": false
       },
       {
-        "row": 27,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 27,
+        "row": 15,
         "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 27,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 28,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 13,
-        "solution": "I",
+        "solution": "O",
         "isBlock": false
       },
       {
-        "row": 28,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 28,
+        "row": 15,
         "col": 16,
         "isBlock": true
       },
       {
-        "row": 28,
+        "row": 15,
         "col": 17,
         "isBlock": true
       },
       {
-        "row": 28,
+        "row": 15,
         "col": 18,
-        "isBlock": true
+        "solution": "M",
+        "isBlock": false
       },
       {
-        "row": 28,
+        "row": 15,
         "col": 19,
         "isBlock": true
       },
       {
-        "row": 28,
+        "row": 15,
         "col": 20,
         "isBlock": true
       },
       {
-        "row": 28,
+        "row": 15,
         "col": 21,
         "isBlock": true
       },
       {
-        "row": 28,
+        "row": 15,
         "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 28,
-        "col": 29,
-        "isBlock": true
+        "solution": "B",
+        "isBlock": false
       }
     ],
     [
       {
-        "row": 29,
+        "row": 16,
         "col": 0,
         "isBlock": true
       },
       {
-        "row": 29,
+        "row": 16,
         "col": 1,
         "isBlock": true
       },
       {
-        "row": 29,
+        "row": 16,
         "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 13,
         "solution": "A",
         "isBlock": false
       },
       {
-        "row": 29,
-        "col": 14,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 15,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 16,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 17,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 18,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 19,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 20,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 21,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 29,
-        "col": 29,
-        "isBlock": true
-      }
-    ],
-    [
-      {
-        "row": 30,
-        "col": 0,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 1,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 30,
+        "row": 16,
         "col": 3,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 4,
-        "isBlock": true
+        "solution": "E",
+        "isBlock": false
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 5,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 6,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 7,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 8,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 9,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 10,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 11,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
         "col": 12,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 16,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 16,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 16,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 16,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 16,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 16,
+        "col": 18,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 16,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 16,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 16,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 16,
+        "col": 22,
+        "solution": "R",
+        "isBlock": false
+      }
+    ],
+    [
+      {
+        "row": 17,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 17,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 4,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 17,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 8,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 10,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 18,
+        "solution": "S",
+        "isBlock": false
+      },
+      {
+        "row": 17,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 17,
+        "col": 22,
+        "solution": "O",
+        "isBlock": false
+      }
+    ],
+    [
+      {
+        "row": 18,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 18,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 18,
+        "col": 2,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 18,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 18,
+        "col": 4,
+        "solution": "T",
+        "isBlock": false,
+        "number": 19
+      },
+      {
+        "row": 18,
+        "col": 5,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 18,
+        "col": 6,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 18,
+        "col": 7,
+        "solution": "I",
+        "isBlock": false
+      },
+      {
+        "row": 18,
+        "col": 8,
+        "solution": "N",
+        "isBlock": false,
+        "number": 20
+      },
+      {
+        "row": 18,
+        "col": 9,
+        "solution": "D",
+        "isBlock": false
+      },
+      {
+        "row": 18,
+        "col": 10,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 18,
+        "col": 11,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 18,
+        "col": 12,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 18,
         "col": 13,
         "solution": "M",
         "isBlock": false
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 14,
-        "isBlock": true
+        "solution": "S",
+        "isBlock": false
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 15,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 16,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 17,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 18,
-        "isBlock": true
+        "solution": "T",
+        "isBlock": false
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 19,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 20,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 21,
         "isBlock": true
       },
       {
-        "row": 30,
+        "row": 18,
         "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 30,
-        "col": 29,
-        "isBlock": true
+        "solution": "S",
+        "isBlock": false
       }
     ],
     [
       {
-        "row": 31,
+        "row": 19,
         "col": 0,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 1,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 13,
         "solution": "O",
         "isBlock": false
       },
       {
-        "row": 31,
+        "row": 19,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 19,
+        "col": 4,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 19,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 19,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 19,
+        "col": 8,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 19,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 19,
+        "col": 10,
+        "isBlock": true
+      },
+      {
+        "row": 19,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 19,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 19,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 19,
         "col": 14,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 15,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 16,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 17,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 18,
-        "isBlock": true
+        "solution": "O",
+        "isBlock": false
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 19,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 20,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 21,
         "isBlock": true
       },
       {
-        "row": 31,
+        "row": 19,
         "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 31,
-        "col": 29,
         "isBlock": true
       }
     ],
     [
       {
-        "row": 32,
+        "row": 20,
         "col": 0,
         "isBlock": true
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 1,
         "isBlock": true
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 2,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 3,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 4,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 5,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 6,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 7,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 8,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 9,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 10,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 11,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 12,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 13,
         "solution": "N",
         "isBlock": false
       },
       {
-        "row": 32,
+        "row": 20,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 20,
+        "col": 4,
+        "solution": "L",
+        "isBlock": false,
+        "number": 21
+      },
+      {
+        "row": 20,
+        "col": 5,
+        "solution": "U",
+        "isBlock": false
+      },
+      {
+        "row": 20,
+        "col": 6,
+        "solution": "D",
+        "isBlock": false
+      },
+      {
+        "row": 20,
+        "col": 7,
+        "solution": "W",
+        "isBlock": false
+      },
+      {
+        "row": 20,
+        "col": 8,
+        "solution": "I",
+        "isBlock": false
+      },
+      {
+        "row": 20,
+        "col": 9,
+        "solution": "G",
+        "isBlock": false
+      },
+      {
+        "row": 20,
+        "col": 10,
+        "solution": "G",
+        "isBlock": false
+      },
+      {
+        "row": 20,
+        "col": 11,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 20,
+        "col": 12,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 20,
+        "col": 13,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 20,
         "col": 14,
-        "isBlock": true
+        "solution": "N",
+        "isBlock": false
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 15,
-        "isBlock": true
+        "solution": "S",
+        "isBlock": false
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 16,
-        "isBlock": true
+        "solution": "S",
+        "isBlock": false
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 17,
-        "isBlock": true
+        "solution": "O",
+        "isBlock": false
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 18,
-        "isBlock": true
+        "solution": "N",
+        "isBlock": false
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 19,
         "isBlock": true
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 20,
         "isBlock": true
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 21,
         "isBlock": true
       },
       {
-        "row": 32,
+        "row": 20,
         "col": 22,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 23,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 24,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 25,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 26,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 27,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 28,
-        "isBlock": true
-      },
-      {
-        "row": 32,
-        "col": 29,
         "isBlock": true
       }
     ],
     [
       {
-        "row": 33,
+        "row": 21,
         "col": 0,
-        "isBlock": true
+        "solution": "H",
+        "isBlock": false,
+        "number": 22
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 1,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 2,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 3,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 4,
-        "isBlock": true
+        "solution": "V",
+        "isBlock": false
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 5,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 6,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 7,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 8,
-        "isBlock": true
+        "solution": "L",
+        "isBlock": false
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 9,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 10,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 11,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 12,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 13,
-        "solution": "D",
-        "isBlock": false
+        "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 14,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 15,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 16,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 17,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 18,
-        "isBlock": true
+        "solution": "E",
+        "isBlock": false
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 19,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 20,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 21,
         "isBlock": true
       },
       {
-        "row": 33,
+        "row": 21,
         "col": 22,
         "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 22,
+        "col": 0,
+        "solution": "A",
+        "isBlock": false,
+        "number": 23
       },
       {
-        "row": 33,
-        "col": 23,
+        "row": 22,
+        "col": 1,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 22,
+        "col": 2,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 22,
+        "col": 3,
+        "solution": "B",
+        "isBlock": false
+      },
+      {
+        "row": 22,
+        "col": 4,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 22,
+        "col": 5,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 22,
+        "col": 6,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 22,
+        "col": 7,
         "isBlock": true
       },
       {
-        "row": 33,
-        "col": 24,
+        "row": 22,
+        "col": 8,
+        "solution": "D",
+        "isBlock": false
+      },
+      {
+        "row": 22,
+        "col": 9,
         "isBlock": true
       },
       {
-        "row": 33,
-        "col": 25,
+        "row": 22,
+        "col": 10,
         "isBlock": true
       },
       {
-        "row": 33,
-        "col": 26,
+        "row": 22,
+        "col": 11,
         "isBlock": true
       },
       {
-        "row": 33,
-        "col": 27,
+        "row": 22,
+        "col": 12,
         "isBlock": true
       },
       {
-        "row": 33,
-        "col": 28,
+        "row": 22,
+        "col": 13,
         "isBlock": true
       },
       {
-        "row": 33,
-        "col": 29,
+        "row": 22,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 22,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 22,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 22,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 22,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 22,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 22,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 22,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 22,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 23,
+        "col": 0,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 4,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 8,
+        "solution": "I",
+        "isBlock": false,
+        "number": 24
+      },
+      {
+        "row": 23,
+        "col": 9,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 10,
+        "solution": "I",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 11,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 12,
+        "solution": "D",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 13,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 14,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 15,
+        "solution": "Y",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 16,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 17,
+        "solution": "U",
+        "isBlock": false
+      },
+      {
+        "row": 23,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 23,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 24,
+        "col": 0,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 24,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 3,
+        "solution": "H",
+        "isBlock": false,
+        "number": 25
+      },
+      {
+        "row": 24,
+        "col": 4,
+        "solution": "U",
+        "isBlock": false
+      },
+      {
+        "row": 24,
+        "col": 5,
+        "solution": "L",
+        "isBlock": false
+      },
+      {
+        "row": 24,
+        "col": 6,
+        "solution": "U",
+        "isBlock": false
+      },
+      {
+        "row": 24,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 8,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 24,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 10,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 16,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 24,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 25,
+        "col": 0,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 4,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 7,
+        "solution": "A",
+        "isBlock": false,
+        "number": 26
+      },
+      {
+        "row": 25,
+        "col": 8,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "solution": "Y",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 10,
+        "solution": "M",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 11,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 12,
+        "solution": "D",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 13,
+        "solution": "I",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 14,
+        "solution": "G",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 15,
+        "solution": "A",
+        "isBlock": false
+      },
+      {
+        "row": 25,
+        "col": 16,
+        "solution": "N",
+        "isBlock": false,
+        "number": 27
+      },
+      {
+        "row": 25,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 25,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 26,
+        "col": 0,
+        "solution": "T",
+        "isBlock": false
+      },
+      {
+        "row": 26,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 4,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 8,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 26,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 10,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 16,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 26,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 26,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 27,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 1,
+        "solution": "R",
+        "isBlock": false,
+        "number": 28
+      },
+      {
+        "row": 27,
+        "col": 2,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 3,
+        "solution": "S",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 4,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 5,
+        "solution": "B",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 6,
+        "solution": "Y",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 7,
+        "solution": "R",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 8,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "solution": "E",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 10,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 16,
+        "solution": "O",
+        "isBlock": false
+      },
+      {
+        "row": 27,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 27,
+        "col": 22,
+        "isBlock": true
+      }
+    ],
+    [
+      {
+        "row": 28,
+        "col": 0,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 1,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 2,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 3,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 4,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 5,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 6,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 7,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 8,
+        "solution": "D",
+        "isBlock": false
+      },
+      {
+        "row": 28,
+        "col": 9,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 11,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 12,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 13,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 14,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 15,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 16,
+        "solution": "N",
+        "isBlock": false
+      },
+      {
+        "row": 28,
+        "col": 17,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 18,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 19,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 20,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 21,
+        "isBlock": true
+      },
+      {
+        "row": 28,
+        "col": 22,
         "isBlock": true
       }
     ]
@@ -5422,189 +3670,327 @@
   "clues": {
     "across": [
       {
-        "number": 1,
-        "text": "\"Best Picutre nominee, distributed by A24, shot in New York\"",
-        "cells": [
-          {
-            "row": 9,
-            "col": 15
-          },
-          {
-            "row": 9,
-            "col": 16
-          },
-          {
-            "row": 9,
-            "col": 17
-          },
-          {
-            "row": 9,
-            "col": 18
-          },
-          {
-            "row": 9,
-            "col": 19
-          },
-          {
-            "row": 9,
-            "col": 20
-          },
-          {
-            "row": 9,
-            "col": 21
-          },
-          {
-            "row": 9,
-            "col": 22
-          },
-          {
-            "row": 9,
-            "col": 23
-          },
-          {
-            "row": 9,
-            "col": 24
-          },
-          {
-            "row": 9,
-            "col": 25
-          },
-          {
-            "row": 9,
-            "col": 26
-          }
-        ]
-      },
-      {
         "number": 4,
-        "text": "\"Only nominated actress to have previously won Best Actress\"",
+        "text": "\"The only genre found in the title of a nominee this year\"",
         "cells": [
           {
-            "row": 5,
-            "col": 0
-          },
-          {
-            "row": 5,
-            "col": 1
-          },
-          {
-            "row": 5,
-            "col": 2
-          },
-          {
-            "row": 5,
-            "col": 3
-          },
-          {
-            "row": 5,
-            "col": 4
-          },
-          {
-            "row": 5,
+            "row": 1,
             "col": 5
           },
           {
-            "row": 5,
+            "row": 1,
             "col": 6
           },
           {
-            "row": 5,
+            "row": 1,
             "col": 7
           },
           {
-            "row": 5,
+            "row": 1,
             "col": 8
           }
         ]
       },
       {
         "number": 5,
-        "text": "\"Quite possibly the biggest family in film right now\"",
+        "text": "\"Set the record for most Oscar nominations with sixteen nominations\"",
         "cells": [
           {
-            "row": 15,
-            "col": 11
-          },
-          {
-            "row": 15,
-            "col": 12
-          },
-          {
-            "row": 15,
-            "col": 13
-          },
-          {
-            "row": 15,
-            "col": 14
-          },
-          {
-            "row": 15,
-            "col": 15
-          },
-          {
-            "row": 15,
+            "row": 1,
             "col": 16
           },
           {
-            "row": 15,
+            "row": 1,
             "col": 17
           },
           {
-            "row": 15,
+            "row": 1,
             "col": 18
           },
           {
-            "row": 15,
+            "row": 1,
             "col": 19
+          },
+          {
+            "row": 1,
+            "col": 20
+          },
+          {
+            "row": 1,
+            "col": 21
+          },
+          {
+            "row": 1,
+            "col": 22
           }
         ]
       },
       {
         "number": 8,
-        "text": "\"Set to recieve his first Oscar at the Governor's Awards\"",
+        "text": "\"See (Rose)\"",
         "cells": [
           {
-            "row": 4,
+            "row": 3,
+            "col": 7
+          },
+          {
+            "row": 3,
+            "col": 8
+          },
+          {
+            "row": 3,
+            "col": 9
+          },
+          {
+            "row": 3,
+            "col": 10
+          },
+          {
+            "row": 3,
+            "col": 11
+          },
+          {
+            "row": 3,
+            "col": 12
+          },
+          {
+            "row": 3,
+            "col": 13
+          },
+          {
+            "row": 3,
+            "col": 14
+          },
+          {
+            "row": 3,
+            "col": 15
+          },
+          {
+            "row": 3,
+            "col": 16
+          },
+          {
+            "row": 3,
+            "col": 17
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "text": "\"The newest category, debuting at this year's Oscars\"",
+        "cells": [
+          {
+            "row": 5,
+            "col": 14
+          },
+          {
+            "row": 5,
+            "col": 15
+          },
+          {
+            "row": 5,
+            "col": 16
+          },
+          {
+            "row": 5,
+            "col": 17
+          },
+          {
+            "row": 5,
             "col": 18
           },
           {
-            "row": 4,
+            "row": 5,
             "col": 19
           },
           {
-            "row": 4,
+            "row": 5,
             "col": 20
-          },
-          {
-            "row": 4,
-            "col": 21
-          },
-          {
-            "row": 4,
-            "col": 22
-          },
-          {
-            "row": 4,
-            "col": 23
-          },
-          {
-            "row": 4,
-            "col": 24
-          },
-          {
-            "row": 4,
-            "col": 25
-          },
-          {
-            "row": 4,
-            "col": 26
           }
         ]
       },
       {
         "number": 10,
-        "text": "\"See (Rose)\"",
+        "text": "\"Wagner Moura is the first actor from _____ to be nominated for Best Actor\"",
         "cells": [
+          {
+            "row": 6,
+            "col": 3
+          },
+          {
+            "row": 6,
+            "col": 4
+          },
+          {
+            "row": 6,
+            "col": 5
+          },
+          {
+            "row": 6,
+            "col": 6
+          },
+          {
+            "row": 6,
+            "col": 7
+          },
+          {
+            "row": 6,
+            "col": 8
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "text": "\"Quite possibly the biggest family in film right now\"",
+        "cells": [
+          {
+            "row": 7,
+            "col": 10
+          },
+          {
+            "row": 7,
+            "col": 11
+          },
+          {
+            "row": 7,
+            "col": 12
+          },
+          {
+            "row": 7,
+            "col": 13
+          },
+          {
+            "row": 7,
+            "col": 14
+          },
+          {
+            "row": 7,
+            "col": 15
+          },
+          {
+            "row": 7,
+            "col": 16
+          },
+          {
+            "row": 7,
+            "col": 17
+          },
+          {
+            "row": 7,
+            "col": 18
+          }
+        ]
+      },
+      {
+        "number": 15,
+        "text": "\"Best Picture nominee, distributed by Warner Bros., shot in California\"",
+        "cells": [
+          {
+            "row": 11,
+            "col": 2
+          },
+          {
+            "row": 11,
+            "col": 3
+          },
+          {
+            "row": 11,
+            "col": 4
+          },
+          {
+            "row": 11,
+            "col": 5
+          },
+          {
+            "row": 11,
+            "col": 6
+          },
+          {
+            "row": 11,
+            "col": 7
+          },
+          {
+            "row": 11,
+            "col": 8
+          },
+          {
+            "row": 11,
+            "col": 9
+          },
+          {
+            "row": 11,
+            "col": 10
+          },
+          {
+            "row": 11,
+            "col": 11
+          },
+          {
+            "row": 11,
+            "col": 12
+          },
+          {
+            "row": 11,
+            "col": 13
+          },
+          {
+            "row": 11,
+            "col": 14
+          },
+          {
+            "row": 11,
+            "col": 15
+          },
+          {
+            "row": 11,
+            "col": 16
+          },
+          {
+            "row": 11,
+            "col": 17
+          },
+          {
+            "row": 11,
+            "col": 18
+          },
+          {
+            "row": 11,
+            "col": 19
+          },
+          {
+            "row": 11,
+            "col": 20
+          },
+          {
+            "row": 11,
+            "col": 21
+          },
+          {
+            "row": 11,
+            "col": 22
+          }
+        ]
+      },
+      {
+        "number": 16,
+        "text": "\"Youngest person to be nominated for both acting and producing in the same year\"",
+        "cells": [
+          {
+            "row": 13,
+            "col": 4
+          },
+          {
+            "row": 13,
+            "col": 5
+          },
+          {
+            "row": 13,
+            "col": 6
+          },
+          {
+            "row": 13,
+            "col": 7
+          },
           {
             "row": 13,
             "col": 8
@@ -5648,57 +4034,133 @@
           {
             "row": 13,
             "col": 18
+          },
+          {
+            "row": 13,
+            "col": 19
           }
         ]
       },
       {
-        "number": 11,
-        "text": "\"Studio with the most films nominated at the main ceremony\"",
+        "number": 18,
+        "text": "\"Previously the youngest actor to earn three acting nominations before Chalamet\"",
         "cells": [
           {
-            "row": 12,
+            "row": 15,
+            "col": 4
+          },
+          {
+            "row": 15,
+            "col": 5
+          },
+          {
+            "row": 15,
+            "col": 6
+          },
+          {
+            "row": 15,
+            "col": 7
+          },
+          {
+            "row": 15,
+            "col": 8
+          },
+          {
+            "row": 15,
+            "col": 9
+          },
+          {
+            "row": 15,
             "col": 10
           },
           {
-            "row": 12,
+            "row": 15,
             "col": 11
           },
           {
-            "row": 12,
+            "row": 15,
             "col": 12
           },
           {
-            "row": 12,
-            "col": 13
-          }
-        ]
-      },
-      {
-        "number": 12,
-        "text": "\"You can watch the Oscars on ABC and ____\"",
-        "cells": [
-          {
-            "row": 6,
+            "row": 15,
             "col": 13
           },
           {
-            "row": 6,
+            "row": 15,
             "col": 14
           },
           {
-            "row": 6,
+            "row": 15,
             "col": 15
-          },
-          {
-            "row": 6,
-            "col": 16
           }
         ]
       },
       {
-        "number": 15,
-        "text": "\"Studio with the most nominations at the main ceremony\"",
+        "number": 19,
+        "text": "\"Best Picture nominee, distributed by Netflix, shot in Washington\"",
         "cells": [
+          {
+            "row": 18,
+            "col": 4
+          },
+          {
+            "row": 18,
+            "col": 5
+          },
+          {
+            "row": 18,
+            "col": 6
+          },
+          {
+            "row": 18,
+            "col": 7
+          },
+          {
+            "row": 18,
+            "col": 8
+          },
+          {
+            "row": 18,
+            "col": 9
+          },
+          {
+            "row": 18,
+            "col": 10
+          },
+          {
+            "row": 18,
+            "col": 11
+          },
+          {
+            "row": 18,
+            "col": 12
+          },
+          {
+            "row": 18,
+            "col": 13
+          },
+          {
+            "row": 18,
+            "col": 14
+          }
+        ]
+      },
+      {
+        "number": 21,
+        "text": "\"This musician, nominated this year for Best Music, is a Tony Award away from an EGOT\"",
+        "cells": [
+          {
+            "row": 20,
+            "col": 4
+          },
+          {
+            "row": 20,
+            "col": 5
+          },
+          {
+            "row": 20,
+            "col": 6
+          },
           {
             "row": 20,
             "col": 7
@@ -5738,135 +4200,351 @@
           {
             "row": 20,
             "col": 16
+          },
+          {
+            "row": 20,
+            "col": 17
+          },
+          {
+            "row": 20,
+            "col": 18
+          }
+        ]
+      },
+      {
+        "number": 23,
+        "text": "\"The only US state found in the title of a nominee this year\"",
+        "cells": [
+          {
+            "row": 22,
+            "col": 0
+          },
+          {
+            "row": 22,
+            "col": 1
+          },
+          {
+            "row": 22,
+            "col": 2
+          },
+          {
+            "row": 22,
+            "col": 3
+          },
+          {
+            "row": 22,
+            "col": 4
+          },
+          {
+            "row": 22,
+            "col": 5
+          },
+          {
+            "row": 22,
+            "col": 6
+          }
+        ]
+      },
+      {
+        "number": 24,
+        "text": "\"This and \"Golden\" will be the only songs performed during the ceremony\"",
+        "cells": [
+          {
+            "row": 23,
+            "col": 8
+          },
+          {
+            "row": 23,
+            "col": 9
+          },
+          {
+            "row": 23,
+            "col": 10
+          },
+          {
+            "row": 23,
+            "col": 11
+          },
+          {
+            "row": 23,
+            "col": 12
+          },
+          {
+            "row": 23,
+            "col": 13
+          },
+          {
+            "row": 23,
+            "col": 14
+          },
+          {
+            "row": 23,
+            "col": 15
+          },
+          {
+            "row": 23,
+            "col": 16
+          },
+          {
+            "row": 23,
+            "col": 17
+          }
+        ]
+      },
+      {
+        "number": 25,
+        "text": "\"You can watch the Oscars on ABC and ____\"",
+        "cells": [
+          {
+            "row": 24,
+            "col": 3
+          },
+          {
+            "row": 24,
+            "col": 4
+          },
+          {
+            "row": 24,
+            "col": 5
+          },
+          {
+            "row": 24,
+            "col": 6
+          }
+        ]
+      },
+      {
+        "number": 26,
+        "text": "\"The 40-year span between nominations has this actress tied for the longest gap between nominations for an actress\"",
+        "cells": [
+          {
+            "row": 25,
+            "col": 7
+          },
+          {
+            "row": 25,
+            "col": 8
+          },
+          {
+            "row": 25,
+            "col": 9
+          },
+          {
+            "row": 25,
+            "col": 10
+          },
+          {
+            "row": 25,
+            "col": 11
+          },
+          {
+            "row": 25,
+            "col": 12
+          },
+          {
+            "row": 25,
+            "col": 13
+          },
+          {
+            "row": 25,
+            "col": 14
+          },
+          {
+            "row": 25,
+            "col": 15
+          },
+          {
+            "row": 25,
+            "col": 16
+          }
+        ]
+      },
+      {
+        "number": 28,
+        "text": "\"If I Had Legs I'd Kick You star, along with (Conan)\"",
+        "cells": [
+          {
+            "row": 27,
+            "col": 1
+          },
+          {
+            "row": 27,
+            "col": 2
+          },
+          {
+            "row": 27,
+            "col": 3
+          },
+          {
+            "row": 27,
+            "col": 4
+          },
+          {
+            "row": 27,
+            "col": 5
+          },
+          {
+            "row": 27,
+            "col": 6
+          },
+          {
+            "row": 27,
+            "col": 7
+          },
+          {
+            "row": 27,
+            "col": 8
+          },
+          {
+            "row": 27,
+            "col": 9
           }
         ]
       }
     ],
     "down": [
       {
-        "number": 2,
-        "text": "\"Best Picture nominee, distributed by Neon, shot in Norway\"",
+        "number": 1,
+        "text": "\"Set to recieve his first Oscar at the Governor's Awards\"",
         "cells": [
           {
+            "row": 0,
+            "col": 7
+          },
+          {
+            "row": 1,
+            "col": 7
+          },
+          {
+            "row": 2,
+            "col": 7
+          },
+          {
+            "row": 3,
+            "col": 7
+          },
+          {
             "row": 4,
-            "col": 25
+            "col": 7
           },
           {
             "row": 5,
-            "col": 25
+            "col": 7
           },
           {
             "row": 6,
-            "col": 25
+            "col": 7
           },
           {
             "row": 7,
-            "col": 25
+            "col": 7
           },
           {
             "row": 8,
-            "col": 25
+            "col": 7
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "\"She is the second woman, and first woman of color, to be nominated for Best Director twice\"",
+        "cells": [
+          {
+            "row": 0,
+            "col": 12
           },
           {
-            "row": 9,
-            "col": 25
+            "row": 1,
+            "col": 12
           },
           {
-            "row": 10,
-            "col": 25
+            "row": 2,
+            "col": 12
           },
           {
-            "row": 11,
-            "col": 25
+            "row": 3,
+            "col": 12
           },
           {
-            "row": 12,
-            "col": 25
+            "row": 4,
+            "col": 12
           },
           {
-            "row": 13,
-            "col": 25
+            "row": 5,
+            "col": 12
           },
           {
-            "row": 14,
-            "col": 25
+            "row": 6,
+            "col": 12
           },
           {
-            "row": 15,
-            "col": 25
+            "row": 7,
+            "col": 12
           },
           {
-            "row": 16,
-            "col": 25
-          },
-          {
-            "row": 17,
-            "col": 25
-          },
-          {
-            "row": 18,
-            "col": 25
-          },
-          {
-            "row": 19,
-            "col": 25
+            "row": 8,
+            "col": 12
           }
         ]
       },
       {
         "number": 3,
-        "text": "\"Best Picture nominee, distributed by Netflix, shot in Washington\"",
+        "text": "\"Comedian, nominated as a producer in the Best Documentary Feature Film category\"",
         "cells": [
           {
+            "row": 0,
+            "col": 17
+          },
+          {
+            "row": 1,
+            "col": 17
+          },
+          {
+            "row": 2,
+            "col": 17
+          },
+          {
+            "row": 3,
+            "col": 17
+          },
+          {
+            "row": 4,
+            "col": 17
+          },
+          {
             "row": 5,
-            "col": 11
+            "col": 17
           },
           {
             "row": 6,
-            "col": 11
+            "col": 17
           },
           {
             "row": 7,
-            "col": 11
+            "col": 17
           },
           {
             "row": 8,
-            "col": 11
-          },
-          {
-            "row": 9,
-            "col": 11
-          },
-          {
-            "row": 10,
-            "col": 11
-          },
-          {
-            "row": 11,
-            "col": 11
-          },
-          {
-            "row": 12,
-            "col": 11
-          },
-          {
-            "row": 13,
-            "col": 11
-          },
-          {
-            "row": 14,
-            "col": 11
-          },
-          {
-            "row": 15,
-            "col": 11
+            "col": 17
           }
         ]
       },
       {
         "number": 6,
-        "text": "\"The only US state found in the title of a nominee this year\"",
+        "text": "\"Best Picutre nominee, distributed by A24, shot in New York\"",
         "cells": [
+          {
+            "row": 2,
+            "col": 10
+          },
+          {
+            "row": 3,
+            "col": 10
+          },
+          {
+            "row": 4,
+            "col": 10
+          },
           {
             "row": 5,
             "col": 10
@@ -5893,221 +4571,385 @@
           },
           {
             "row": 11,
+            "col": 10
+          },
+          {
+            "row": 12,
+            "col": 10
+          },
+          {
+            "row": 13,
             "col": 10
           }
         ]
       },
       {
         "number": 7,
-        "text": "\"Set the record for most Oscar nominations with sixteen nominations\"",
+        "text": "\"_____ Theatre, location of this year's ceremony\"",
         "cells": [
           {
-            "row": 0,
-            "col": 26
-          },
-          {
-            "row": 1,
-            "col": 26
-          },
-          {
-            "row": 2,
-            "col": 26
-          },
-          {
             "row": 3,
-            "col": 26
+            "col": 3
           },
           {
             "row": 4,
-            "col": 26
+            "col": 3
           },
           {
             "row": 5,
-            "col": 26
+            "col": 3
           },
           {
             "row": 6,
-            "col": 26
+            "col": 3
+          },
+          {
+            "row": 7,
+            "col": 3
           }
         ]
       },
       {
         "number": 9,
-        "text": "\"Winner of this year's Jean Hersholt Humanitarian Award, even though she's not primarily known for films\"",
+        "text": "\"Ruth E. Carter became the most-nominated Black woman across any category with her nomination for this category\"",
         "cells": [
           {
-            "row": 4,
-            "col": 6
-          },
-          {
             "row": 5,
-            "col": 6
+            "col": 14
           },
           {
             "row": 6,
-            "col": 6
+            "col": 14
           },
           {
             "row": 7,
-            "col": 6
+            "col": 14
           },
           {
             "row": 8,
-            "col": 6
+            "col": 14
           },
           {
             "row": 9,
-            "col": 6
+            "col": 14
           },
           {
             "row": 10,
-            "col": 6
+            "col": 14
           },
           {
             "row": 11,
-            "col": 6
-          },
-          {
-            "row": 12,
-            "col": 6
-          },
-          {
-            "row": 13,
-            "col": 6
-          },
-          {
-            "row": 14,
-            "col": 6
+            "col": 14
           }
         ]
       },
       {
-        "number": 10,
-        "text": "\"She is the second woman, and first woman of color, to be nominated for Best Director twice\"",
+        "number": 12,
+        "text": "\"Studio with the most nominations at the main ceremony\"",
         "cells": [
           {
+            "row": 9,
+            "col": 22
+          },
+          {
+            "row": 10,
+            "col": 22
+          },
+          {
+            "row": 11,
+            "col": 22
+          },
+          {
+            "row": 12,
+            "col": 22
+          },
+          {
             "row": 13,
-            "col": 8
+            "col": 22
           },
           {
             "row": 14,
-            "col": 8
+            "col": 22
           },
           {
             "row": 15,
-            "col": 8
+            "col": 22
           },
           {
             "row": 16,
-            "col": 8
+            "col": 22
           },
           {
             "row": 17,
-            "col": 8
+            "col": 22
           },
           {
             "row": 18,
-            "col": 8
-          },
-          {
-            "row": 19,
-            "col": 8
-          },
-          {
-            "row": 20,
-            "col": 8
-          },
-          {
-            "row": 21,
-            "col": 8
+            "col": 22
           }
         ]
       },
       {
         "number": 13,
-        "text": "\"Previously the youngest actor to earn three acting nominations before Chalamet\"",
+        "text": "\"Winner of this year's Jean Hersholt Humanitarian Award, even though she's not primarily known for films\"",
         "cells": [
           {
+            "row": 10,
+            "col": 2
+          },
+          {
             "row": 11,
-            "col": 20
+            "col": 2
           },
           {
             "row": 12,
-            "col": 20
+            "col": 2
           },
           {
             "row": 13,
-            "col": 20
+            "col": 2
           },
           {
             "row": 14,
-            "col": 20
+            "col": 2
           },
           {
             "row": 15,
-            "col": 20
+            "col": 2
           },
           {
             "row": 16,
-            "col": 20
+            "col": 2
           },
           {
             "row": 17,
-            "col": 20
+            "col": 2
           },
           {
             "row": 18,
-            "col": 20
+            "col": 2
           },
           {
             "row": 19,
-            "col": 20
+            "col": 2
           },
           {
             "row": 20,
-            "col": 20
-          },
-          {
-            "row": 21,
-            "col": 20
-          },
-          {
-            "row": 22,
-            "col": 20
+            "col": 2
           }
         ]
       },
       {
         "number": 14,
-        "text": "\"Ruth E. Carter became the most-nominated Black woman across any category with her nomination for this category\"",
+        "text": "\"Best Picture nominee, distributed by Neon, shot in Norway\"",
         "cells": [
           {
-            "row": 5,
-            "col": 28
-          },
-          {
-            "row": 6,
-            "col": 28
-          },
-          {
-            "row": 7,
-            "col": 28
-          },
-          {
-            "row": 8,
-            "col": 28
-          },
-          {
-            "row": 9,
-            "col": 28
-          },
-          {
             "row": 10,
-            "col": 28
+            "col": 4
           },
           {
             "row": 11,
-            "col": 28
+            "col": 4
+          },
+          {
+            "row": 12,
+            "col": 4
+          },
+          {
+            "row": 13,
+            "col": 4
+          },
+          {
+            "row": 14,
+            "col": 4
+          },
+          {
+            "row": 15,
+            "col": 4
+          },
+          {
+            "row": 16,
+            "col": 4
+          },
+          {
+            "row": 17,
+            "col": 4
+          },
+          {
+            "row": 18,
+            "col": 4
+          },
+          {
+            "row": 19,
+            "col": 4
+          },
+          {
+            "row": 20,
+            "col": 4
+          },
+          {
+            "row": 21,
+            "col": 4
+          },
+          {
+            "row": 22,
+            "col": 4
+          },
+          {
+            "row": 23,
+            "col": 4
+          },
+          {
+            "row": 24,
+            "col": 4
+          },
+          {
+            "row": 25,
+            "col": 4
+          }
+        ]
+      },
+      {
+        "number": 17,
+        "text": "\"Only nominated actress to have previously won Best Actress\"",
+        "cells": [
+          {
+            "row": 13,
+            "col": 18
+          },
+          {
+            "row": 14,
+            "col": 18
+          },
+          {
+            "row": 15,
+            "col": 18
+          },
+          {
+            "row": 16,
+            "col": 18
+          },
+          {
+            "row": 17,
+            "col": 18
+          },
+          {
+            "row": 18,
+            "col": 18
+          },
+          {
+            "row": 19,
+            "col": 18
+          },
+          {
+            "row": 20,
+            "col": 18
+          },
+          {
+            "row": 21,
+            "col": 18
+          }
+        ]
+      },
+      {
+        "number": 20,
+        "text": "\"The subject of the cover band helmed by nominee Kate Hudson and Hugh Jackman in Song Sung Blue\"",
+        "cells": [
+          {
+            "row": 18,
+            "col": 8
+          },
+          {
+            "row": 19,
+            "col": 8
+          },
+          {
+            "row": 20,
+            "col": 8
+          },
+          {
+            "row": 21,
+            "col": 8
+          },
+          {
+            "row": 22,
+            "col": 8
+          },
+          {
+            "row": 23,
+            "col": 8
+          },
+          {
+            "row": 24,
+            "col": 8
+          },
+          {
+            "row": 25,
+            "col": 8
+          },
+          {
+            "row": 26,
+            "col": 8
+          },
+          {
+            "row": 27,
+            "col": 8
+          },
+          {
+            "row": 28,
+            "col": 8
+          }
+        ]
+      },
+      {
+        "number": 22,
+        "text": "\"Best Picture nominee, distributed by Focus Features, shot in England\"",
+        "cells": [
+          {
+            "row": 21,
+            "col": 0
+          },
+          {
+            "row": 22,
+            "col": 0
+          },
+          {
+            "row": 23,
+            "col": 0
+          },
+          {
+            "row": 24,
+            "col": 0
+          },
+          {
+            "row": 25,
+            "col": 0
+          },
+          {
+            "row": 26,
+            "col": 0
+          }
+        ]
+      },
+      {
+        "number": 27,
+        "text": "\"Studio with the most films nominated at the main ceremony\"",
+        "cells": [
+          {
+            "row": 25,
+            "col": 16
+          },
+          {
+            "row": 26,
+            "col": 16
+          },
+          {
+            "row": 27,
+            "col": 16
+          },
+          {
+            "row": 28,
+            "col": 16
           }
         ]
       }

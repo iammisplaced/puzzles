@@ -46,16 +46,78 @@ function buildGrid(entries) {
     minCol = 0,
     maxCol = 0;
 
-  function placeWordAt(index, answer, row, col, dir) {
-    for (let i = 0; i < answer.length; i++) {
+  function has(r, c) {
+    return grid.has(key(r, c));
+  }
+
+  function get(r, c) {
+    return grid.get(key(r, c));
+  }
+
+  function canPlace(answer, row, col, dir) {
+    const len = answer.length;
+
+    // Start/end must be bounded by empty space
+    if (dir === "across") {
+      if (has(row, col - 1)) return null;
+      if (has(row, col + len)) return null;
+    } else {
+      if (has(row - 1, col)) return null;
+      if (has(row + len, col)) return null;
+    }
+
+    let intersections = 0;
+    let newMinRow = minRow;
+    let newMaxRow = maxRow;
+    let newMinCol = minCol;
+    let newMaxCol = maxCol;
+
+    for (let i = 0; i < len; i++) {
       const r = dir === "across" ? row : row + i;
       const c = dir === "across" ? col + i : col;
-      const k = key(r, c);
+      const existing = get(r, c);
       const ch = answer[i];
-      const existing = grid.get(k);
-      if (existing && existing !== ch) {
-        throw new Error("Conflict in forced placement");
+
+      if (existing) {
+        if (existing !== ch) return null;
+        intersections++;
+      } else {
+        // No side-by-side touching that would create unintended perpendicular words
+        if (dir === "across") {
+          if (has(r - 1, c) || has(r + 1, c)) return null;
+        } else {
+          if (has(r, c - 1) || has(r, c + 1)) return null;
+        }
       }
+
+      if (r < newMinRow) newMinRow = r;
+      if (r > newMaxRow) newMaxRow = r;
+      if (c < newMinCol) newMinCol = c;
+      if (c > newMaxCol) newMaxCol = c;
+    }
+
+    // Require at least one crossing when attaching to existing grid
+    if (grid.size > 0 && intersections === 0) return null;
+
+    const height = newMaxRow - newMinRow + 1;
+    const width = newMaxCol - newMinCol + 1;
+    const area = height * width;
+    const aspectPenalty = Math.abs(width - height);
+
+    // Favor more crossings and compact shape
+    const score = intersections * 1000 - area - aspectPenalty * 5;
+
+    return {
+      intersections,
+      score,
+      bounds: { newMinRow, newMaxRow, newMinCol, newMaxCol },
+    };
+  }
+
+  function placeWordAt(index, answer, row, col, dir) {
+    const ok = canPlace(answer, row, col, dir) || (grid.size === 0 ? { bounds: { newMinRow: row, newMaxRow: row, newMinCol: col, newMaxCol: col } } : null);
+    if (!ok && grid.size > 0) {
+      throw new Error("Invalid placement attempted for " + answer);
     }
 
     for (let i = 0; i < answer.length; i++) {
@@ -73,14 +135,12 @@ function buildGrid(entries) {
     placed.push({ index, row, col, dir, answer });
   }
 
-  function findPlacement(answer, preferDir) {
+  function bestPlacement(answer) {
     let best = null;
 
     // Collect existing letter cells
     const existingCells = Array.from(grid.entries());
-    if (existingCells.length === 0) {
-      return null;
-    }
+    if (existingCells.length === 0) return null;
 
     for (let i = 0; i < answer.length; i++) {
       const ch = answer[i];
@@ -88,51 +148,23 @@ function buildGrid(entries) {
         if (cellCh !== ch) continue;
         const [gr, gc] = cellKey.split(",").map(Number);
 
-        const dirs = preferDir === "down" ? ["down", "across"] : ["across", "down"];
-
-        for (const dir of dirs) {
-          const row = dir === "across" ? gr : gr - i;
-          const col = dir === "across" ? gc - i : gc;
-
-          let conflict = false;
-          let touches = 0;
-
-          for (let j = 0; j < answer.length; j++) {
-            const r = dir === "across" ? row : row + j;
-            const c = dir === "across" ? col + j : col;
-            const k = key(r, c);
-            const existing = grid.get(k);
-            if (existing) {
-              if (existing !== answer[j]) {
-                conflict = true;
-                break;
-              } else {
-                touches++;
-              }
-            }
+        // Try across crossing at (gr,gc) with word[i]
+        {
+          const row = gr;
+          const col = gc - i;
+          const check = canPlace(answer, row, col, "across");
+          if (check && (!best || check.score > best.score)) {
+            best = { row, col, dir: "across", score: check.score };
           }
-          if (conflict || touches === 0) continue;
+        }
 
-          // Simple scoring: more overlaps is better; smaller bounding box is better
-          let newMinRow = minRow;
-          let newMaxRow = maxRow;
-          let newMinCol = minCol;
-          let newMaxCol = maxCol;
-          for (let j = 0; j < answer.length; j++) {
-            const r = dir === "across" ? row : row + j;
-            const c = dir === "across" ? col + j : col;
-            if (r < newMinRow) newMinRow = r;
-            if (r > newMaxRow) newMaxRow = r;
-            if (c < newMinCol) newMinCol = c;
-            if (c > newMaxCol) newMaxCol = c;
-          }
-          const height = newMaxRow - newMinRow + 1;
-          const width = newMaxCol - newMinCol + 1;
-          const area = height * width;
-          const score = touches * 1000 - area; // prioritize overlaps heavily
-
-          if (!best || score > best.score) {
-            best = { row, col, dir, score };
+        // Try down crossing at (gr,gc) with word[i]
+        {
+          const row = gr - i;
+          const col = gc;
+          const check = canPlace(answer, row, col, "down");
+          if (check && (!best || check.score > best.score)) {
+            best = { row, col, dir: "down", score: check.score };
           }
         }
       }
@@ -141,25 +173,32 @@ function buildGrid(entries) {
     return best;
   }
 
-  entries.forEach((entry, index) => {
-    const answer = entry.answer;
-    if (index === 0) {
-      // Place first word across at origin
-      placeWordAt(index, answer, 0, 0, "across");
-      return;
-    }
+  // Place longer words first for a more connected, compact layout
+  const order = entries
+    .map((e, idx) => ({ idx, len: e.answer.length }))
+    .sort((a, b) => b.len - a.len);
 
-    const preferDir = index % 2 === 0 ? "down" : "across";
-    const placement = findPlacement(answer, preferDir);
+  // Seed with the longest word at the origin, across
+  {
+    const first = order.shift();
+    placeWordAt(first.idx, entries[first.idx].answer, 0, 0, "across");
+  }
+
+  for (const item of order) {
+    const index = item.idx;
+    const answer = entries[index].answer;
+    const placement = bestPlacement(answer);
     if (placement) {
       placeWordAt(index, answer, placement.row, placement.col, placement.dir);
-    } else {
-      // Fallback: place below everything, across
-      const row = maxRow + 2;
-      const col = 0;
-      placeWordAt(index, answer, row, col, "across");
+      continue;
     }
-  });
+
+    // Fallback: create a separated "mini area" below the current bounds.
+    // Keep it valid (no touching) and allow future crossings within that area.
+    const tryRow = maxRow + 2;
+    const tryCol = minCol;
+    placeWordAt(index, answer, tryRow, tryCol, "across");
+  }
 
   return { grid, placed, minRow, maxRow, minCol, maxCol };
 }
@@ -202,70 +241,88 @@ function buildJson(entries, gridInfo) {
     gridJson.push(rowArr);
   }
 
-  // Index placed words by start position + direction
-  const placedByStart = new Map(); // "r,c,dir" -> placed entry
-  placed.forEach((p) => {
+  const startKey = (r, c, dir) => r + "," + c + "," + dir;
+  const startToEntry = new Map(); // "r,c,dir" -> { index, entry }
+
+  for (const p of placed) {
     const sr = p.row - minRow;
     const sc = p.col - minCol;
-    placedByStart.set(sr + "," + sc + "," + p.dir, p);
-  });
+    const k = startKey(sr, sc, p.dir);
+    if (startToEntry.has(k)) {
+      throw new Error("Duplicate start placement at " + k);
+    }
+    startToEntry.set(k, { index: p.index, entry: entries[p.index] });
+  }
 
   let clueNumber = 1;
-  const cellNumber = new Map(); // "r,c" -> number
+  const numbered = new Map(); // "r,c" -> number
   const acrossClues = [];
   const downClues = [];
+  const usedEntries = new Set();
+
+  function hasLetter(r, c) {
+    return letterAt.has(key(r, c));
+  }
 
   function assignNumber(r, c) {
     const k = key(r, c);
-    if (cellNumber.has(k)) return cellNumber.get(k);
+    if (numbered.has(k)) return numbered.get(k);
     const num = clueNumber++;
-    cellNumber.set(k, num);
-    const cell = gridJson[r][c];
-    cell.number = num;
+    numbered.set(k, num);
+    gridJson[r][c].number = num;
     return num;
   }
 
-  // Build clues from placed words
-  for (const p of placed) {
-    const entry = entries[p.index];
-    const sr = p.row - minRow;
-    const sc = p.col - minCol;
-
-    const isAcross = p.dir === "across";
-    const list = isAcross ? acrossClues : downClues;
-
-    // Determine if this word actually starts here in its direction
-    if (isAcross) {
-      const leftCol = sc - 1;
-      if (leftCol >= 0) {
-        const kLeft = key(sr, leftCol);
-        if (letterAt.has(kLeft)) {
-          continue; // not a start
-        }
-      }
-    } else {
-      const upRow = sr - 1;
-      if (upRow >= 0) {
-        const kUp = key(upRow, sc);
-        if (letterAt.has(kUp)) {
-          continue; // not a start
-        }
-      }
-    }
-
-    const num = assignNumber(sr, sc);
+  function takeRun(r, c, dir) {
     const cells = [];
-    for (let i = 0; i < p.answer.length; i++) {
-      const r = isAcross ? sr : sr + i;
-      const c = isAcross ? sc + i : sc;
-      cells.push({ row: r, col: c });
+    let rr = r;
+    let cc = c;
+    while (rr >= 0 && cc >= 0 && rr < rows && cc < cols && hasLetter(rr, cc)) {
+      cells.push({ row: rr, col: cc });
+      if (dir === "across") cc++;
+      else rr++;
     }
+    return cells;
+  }
 
-    list.push({
-      number: num,
-      text: entry.clue,
-      cells,
-    });
+  for (let r = 0; r < rows; r++) {
+    for (let c = 0; c < cols; c++) {
+      if (!hasLetter(r, c)) continue;
+
+      const startsAcross = !hasLetter(r, c - 1) && hasLetter(r, c + 1);
+      const startsDown = !hasLetter(r - 1, c) && hasLetter(r + 1, c);
+      if (!startsAcross && !startsDown) continue;
+
+      const num = assignNumber(r, c);
+
+      if (startsAcross) {
+        const run = takeRun(r, c, "across");
+        const mapped = startToEntry.get(startKey(r, c, "across"));
+        if (!mapped) {
+          throw new Error("Missing across entry for start " + startKey(r, c, "across"));
+        }
+        usedEntries.add(mapped.index);
+        acrossClues.push({ number: num, text: mapped.entry.clue, cells: run });
+      }
+
+      if (startsDown) {
+        const run = takeRun(r, c, "down");
+        const mapped = startToEntry.get(startKey(r, c, "down"));
+        if (!mapped) {
+          throw new Error("Missing down entry for start " + startKey(r, c, "down"));
+        }
+        usedEntries.add(mapped.index);
+        downClues.push({ number: num, text: mapped.entry.clue, cells: run });
+      }
+    }
+  }
+
+  if (usedEntries.size !== entries.length) {
+    const missing = [];
+    for (let i = 0; i < entries.length; i++) {
+      if (!usedEntries.has(i)) missing.push(entries[i].rawAnswer || entries[i].answer);
+    }
+    throw new Error("Not all CSV entries were used as clues. Missing: " + missing.join(", "));
   }
 
   const puzzle = {
