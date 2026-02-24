@@ -1,0 +1,535 @@
+/* Basic layout */
+:root {
+  --cell-size: 3rem;
+  --grid-gap: 2px;
+  --border-color: #222;
+  --highlight-bg: #ffe8a3;
+  --active-border: #e67e22;
+  --correct-bg: #c8f7c5;
+  --incorrect-bg: #f9b7b0;
+  --status-ok: #2ecc71;
+  --status-error: #e74c3c;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-family);
+  background: #f4f4f6;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cw-app {
+  width: 100%;
+  max-width: 1100px;
+  padding: 1rem;
+}
+
+.cw-header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.cw-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.cw-main {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .cw-main {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Grid area */
+
+.cw-grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.cw-grid {
+  display: grid;
+  grid-auto-rows: var(--cell-size);
+  gap: var(--grid-gap);
+  padding: 0.25rem;
+  background: #111;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.cw-cell {
+  position: relative;
+  width: var(--cell-size);
+  height: var(--cell-size);
+  background: #fff;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.cw-cell-black {
+  background: #111;
+  border-color: #111;
+}
+
+.cw-cell-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  background: transparent;
+  color: #111;
+}
+
+.cw-cell-input:focus {
+  outline: none;
+}
+
+.cw-cell-number {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  font-size: 0.55rem;
+  color: #555;
+  pointer-events: none;
+}
+
+/* Cell states */
+
+.cw-cell-active {
+  border-color: var(--active-border);
+  box-shadow: 0 0 0 2px rgba(230, 126, 34, 0.6);
+}
+
+.cw-cell-word-highlight:not(.cw-cell-black) {
+  background: var(--highlight-bg);
+}
+
+.cw-cell-correct:not(.cw-cell-black) {
+  background: var(--correct-bg);
+}
+
+.cw-cell-incorrect:not(.cw-cell-black) {
+  background: var(--incorrect-bg);
+}
+
+/* Controls & status */
+
+.cw-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cw-controls button {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.05s ease,
+    box-shadow 0.15s ease;
+}
+
+.cw-controls button:hover {
+  background: #f0f0f3;
+}
+
+.cw-controls button:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.cw-status {
+  min-height: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.cw-status--ok {
+  color: var(--status-ok);
+}
+
+.cw-status--error {
+  color: var(--status-error);
+}
+
+/* Clues */
+
+.cw-clues {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .cw-clues {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cw-clue-group h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.cw-clue-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 400px;
+  overflow: auto;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px #e0e0e0;
+}
+
+.cw-clue {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.35rem;
+  padding: 0.3rem 0.45rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.cw-clue:nth-child(odd) {
+  background: #fafafa;
+}
+
+.cw-clue:nth-child(even) {
+  background: #f5f5f7;
+}
+
+.cw-clue-number {
+  font-weight: 600;
+}
+
+.cw-clue-text {
+  overflow-wrap: anywhere;
+}
+
+.cw-clue--active {
+  background: #ffe8a3;
+}
+
+:root {
+  color-scheme: light dark;
+  --bg: #f7f7f8;
+  --bg-elevated: #ffffff;
+  --border: #d5d5dd;
+  --border-strong: #b0b0c0;
+  --text: #222330;
+  --muted: #6b6b80;
+  --accent: #2f6bff;
+  --accent-soft: #e0e7ff;
+  --cell-size: 2.4rem;
+  --radius: 10px;
+  --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --transition-fast: 150ms ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #f0f4ff 0, #f7f7f8 45%, #f5f5f7 100%);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.cw-app {
+  width: 100%;
+  max-width: 960px;
+  background: var(--bg-elevated);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding: 20px 20px 18px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.cw-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.cw-header h1 {
+  font-size: 1.35rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.cw-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
+  gap: 18px;
+}
+
+.cw-grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cw-grid {
+  display: grid;
+  justify-content: start;
+  align-items: start;
+  background: #e5e7eb;
+  padding: 4px;
+  border-radius: 16px;
+  box-shadow: inset 0 0 0 1px rgba(148, 163, 184, 0.5);
+}
+
+.cw-cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #f9fafb;
+  box-shadow: 0 0 0 1px rgba(148, 163, 184, 0.5);
+}
+
+.cw-cell-black {
+  background: #0f172a;
+  box-shadow: none;
+}
+
+.cw-cell-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  caret-color: var(--accent);
+}
+
+.cw-cell-input::placeholder {
+  color: transparent;
+}
+
+.cw-cell-number {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  font-size: 0.55rem;
+  color: var(--muted);
+}
+
+.cw-cell-active .cw-cell-input {
+  background: var(--accent-soft);
+}
+
+.cw-cell-word-highlight:not(.cw-cell-active) .cw-cell-input {
+  background: #e5f3ff;
+}
+
+.cw-cell-correct .cw-cell-input {
+  color: #15803d;
+}
+
+.cw-cell-incorrect .cw-cell-input {
+  color: #b91c1c;
+}
+
+.cw-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cw-controls button {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  background: #f9fafb;
+  color: var(--text);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: background var(--transition-fast),
+    border-color var(--transition-fast), transform 80ms ease-out,
+    box-shadow 80ms ease-out;
+}
+
+.cw-controls button:hover {
+  background: #ffffff;
+  border-color: var(--accent);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.18);
+  transform: translateY(-1px);
+}
+
+.cw-controls button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.cw-status {
+  min-height: 1.2em;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.cw-status--ok {
+  color: #15803d;
+}
+
+.cw-status--error {
+  color: #b91c1c;
+}
+
+.cw-clues {
+  background: radial-gradient(circle at top left, #eef2ff 0, #f9fafb 45%, #f8fafc 100%);
+  border-radius: 16px;
+  padding: 10px 12px;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  max-height: 480px;
+  overflow: hidden;
+}
+
+.cw-clue-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.cw-clue-group h2 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 0 0 4px;
+  color: var(--muted);
+}
+
+.cw-clue-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.cw-clue {
+  padding: 4px 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--text);
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.cw-clue-number {
+  font-weight: 600;
+  color: var(--muted);
+  min-width: 1.5em;
+}
+
+.cw-clue-text {
+  flex: 1 1 auto;
+  word-break: break-word;
+}
+
+.cw-clue--active {
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+}
+
+.cw-clue--active .cw-clue-number {
+  color: #1d4ed8;
+}
+
+.cw-clue--answered {
+  opacity: 0.8;
+}
+
+@media (max-width: 840px) {
+  .cw-main {
+    grid-template-columns: 1fr;
+  }
+
+  .cw-app {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 520px) {
+  :root {
+    --cell-size: 2.1rem;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  .cw-app {
+    border-radius: 16px;
+    padding: 14px 12px 12px;
+  }
+
+  .cw-main {
+    gap: 12px;
+  }
+
+  .cw-clues {
+    max-height: 360px;
+  }
+}
+

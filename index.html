@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crossword</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cw-app">
+      <header class="cw-header">
+        <h1 id="cw-title">Crossword</h1>
+      </header>
+
+      <main class="cw-main">
+        <section class="cw-grid-container">
+          <div id="cw-grid" class="cw-grid"></div>
+          <div class="cw-controls">
+            <button id="btn-check" type="button">Check</button>
+            <button id="btn-reveal-letter" type="button">Reveal letter</button>
+            <button id="btn-reveal-word" type="button">Reveal word</button>
+            <button id="btn-clear" type="button">Clear</button>
+          </div>
+          <div id="cw-status" class="cw-status" aria-live="polite"></div>
+        </section>
+
+        <section class="cw-clues">
+          <div class="cw-clue-group">
+            <h2>Across</h2>
+            <ul id="cw-clues-across"></ul>
+          </div>
+          <div class="cw-clue-group">
+            <h2>Down</h2>
+            <ul id="cw-clues-down"></ul>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+

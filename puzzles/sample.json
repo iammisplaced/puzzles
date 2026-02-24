@@ -1,0 +1,103 @@
+{
+  "title": "Sample 5x5 Crossword",
+  "rows": 5,
+  "cols": 5,
+  "grid": [
+    [
+      { "row": 0, "col": 0, "solution": "H", "isBlock": false, "number": 1 },
+      { "row": 0, "col": 1, "solution": "E", "isBlock": false },
+      { "row": 0, "col": 2, "solution": "L", "isBlock": false },
+      { "row": 0, "col": 3, "solution": "L", "isBlock": false },
+      { "row": 0, "col": 4, "solution": "O", "isBlock": false }
+    ],
+    [
+      { "row": 1, "col": 0, "solution": "W", "isBlock": false, "number": 2 },
+      { "row": 1, "col": 1, "solution": "O", "isBlock": false },
+      { "row": 1, "col": 2, "solution": "R", "isBlock": false },
+      { "row": 1, "col": 3, "solution": "L", "isBlock": false },
+      { "row": 1, "col": 4, "solution": "D", "isBlock": false }
+    ],
+    [
+      { "row": 2, "col": 0, "solution": "A", "isBlock": false, "number": 3 },
+      { "row": 2, "col": 1, "solution": "P", "isBlock": false },
+      { "row": 2, "col": 2, "solution": "P", "isBlock": false },
+      { "row": 2, "col": 3, "solution": "L", "isBlock": false },
+      { "row": 2, "col": 4, "solution": "E", "isBlock": false }
+    ],
+    [
+      { "row": 3, "col": 0, "solution": "G", "isBlock": false, "number": 4 },
+      { "row": 3, "col": 1, "solution": "R", "isBlock": false },
+      { "row": 3, "col": 2, "solution": "A", "isBlock": false },
+      { "row": 3, "col": 3, "solution": "P", "isBlock": false },
+      { "row": 3, "col": 4, "solution": "E", "isBlock": false }
+    ],
+    [
+      { "row": 4, "col": 0, "solution": "B", "isBlock": false, "number": 5 },
+      { "row": 4, "col": 1, "solution": "E", "isBlock": false },
+      { "row": 4, "col": 2, "solution": "R", "isBlock": false },
+      { "row": 4, "col": 3, "solution": "R", "isBlock": false },
+      { "row": 4, "col": 4, "solution": "Y", "isBlock": false }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "text": "Friendly greeting.",
+        "cells": [
+          { "row": 0, "col": 0 },
+          { "row": 0, "col": 1 },
+          { "row": 0, "col": 2 },
+          { "row": 0, "col": 3 },
+          { "row": 0, "col": 4 }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Our planet.",
+        "cells": [
+          { "row": 1, "col": 0 },
+          { "row": 1, "col": 1 },
+          { "row": 1, "col": 2 },
+          { "row": 1, "col": 3 },
+          { "row": 1, "col": 4 }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "A popular fruit, often red or green.",
+        "cells": [
+          { "row": 2, "col": 0 },
+          { "row": 2, "col": 1 },
+          { "row": 2, "col": 2 },
+          { "row": 2, "col": 3 },
+          { "row": 2, "col": 4 }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "A small, sweet fruit that can be purple or green.",
+        "cells": [
+          { "row": 3, "col": 0 },
+          { "row": 3, "col": 1 },
+          { "row": 3, "col": 2 },
+          { "row": 3, "col": 3 },
+          { "row": 3, "col": 4 }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Small juicy fruit that grows in clusters.",
+        "cells": [
+          { "row": 4, "col": 0 },
+          { "row": 4, "col": 1 },
+          { "row": 4, "col": 2 },
+          { "row": 4, "col": 3 },
+          { "row": 4, "col": 4 }
+        ]
+      }
+    ],
+    "down": []
+  }
+}
+

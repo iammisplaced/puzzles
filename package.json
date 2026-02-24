@@ -1,0 +1,16 @@
+{
+  "name": "crossword-player",
+  "version": "1.0.0",
+  "description": "Lightweight crossword player for embedding (HTML/CSS/JS, JSON puzzles).",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 8000"
+  },
+  "keywords": [
+    "crossword",
+    "puzzle",
+    "embed",
+    "substack"
+  ]
+}
+
