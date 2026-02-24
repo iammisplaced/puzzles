@@ -28,6 +28,8 @@
   const btnRevealLetter = document.getElementById("btn-reveal-letter");
   const btnRevealWord = document.getElementById("btn-reveal-word");
   const btnClear = document.getElementById("btn-clear");
+  const btnMenu = document.getElementById("btn-menu");
+  const controlsPanel = document.getElementById("cw-controls");
 
   let puzzle = null;
   let cellMap = new Map(); // key "r,c" -> { input, meta }
@@ -450,6 +452,12 @@
   btnRevealLetter?.addEventListener("click", cmdRevealLetter);
   btnRevealWord?.addEventListener("click", cmdRevealWord);
   btnClear?.addEventListener("click", cmdClear);
+
+  btnMenu?.addEventListener("click", () => {
+    if (!controlsPanel) return;
+    const isOpen = controlsPanel.classList.toggle("cw-controls--open");
+    btnMenu.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
 
   window.addEventListener("DOMContentLoaded", loadPuzzle);
 })();

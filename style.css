@@ -44,7 +44,7 @@ body {
 }
 
 .cw-app {
-  width: 100%;
+  /* width: 100%; */
   max-width: 1100px;
   background: var(--bg-elevated);
   border-radius: 20px;
@@ -67,34 +67,72 @@ body {
   text-transform: uppercase;
 }
 
-/* Keep 2 columns always.
-   If the viewport is too narrow, the page may scroll horizontally, but the
-   clue panel will not get pushed below the grid. */
 .cw-main {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  display: flex;
+  flex-direction: row;
   gap: 18px;
-  align-items: stretch;
+  align-items: center;
 }
 
-/* Left panel */
+.cw-layout-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .cw-grid-container {
-  min-width: 0; /* allow column to shrink */
+  width: 100%;
+  max-width: 720px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
+.cw-status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.cw-menu-button {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  background: #f9fafb;
+  color: var(--text);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast),
+    border-color var(--transition-fast), transform 80ms ease-out,
+    box-shadow 80ms ease-out;
+}
+
+.cw-menu-button:hover {
+  background: #ffffff;
+  border-color: var(--accent);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.18);
+  transform: translateY(-1px);
+}
+
+.cw-menu-button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
 /* Grid itself can scroll if it is large */
 .cw-grid {
   display: grid;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
   gap: var(--grid-gap);
-  background: #e5e7eb;
-  padding: 6px;
+  background: #333333;
+  padding: 15px;
   border-radius: var(--radius);
-  box-shadow: inset 0 0 0 1px rgba(148, 163, 184, 0.5);
+  box-shadow: none;
 
   max-width: 100%;
   overflow: auto;
@@ -106,13 +144,18 @@ body {
   position: relative;
   border-radius: 6px;
   overflow: hidden;
-  background: #f9fafb;
-  box-shadow: 0 0 0 1px rgba(148, 163, 184, 0.5);
+  background: transparent;
+  box-shadow: none;
 }
 
 .cw-cell-black {
-  background: #0f172a;
+  background: transparent;
   box-shadow: none;
+}
+
+.cw-cell:not(.cw-cell-black) {
+  background: #f9fafb;
+  box-shadow: 0 0 0 1px rgba(148, 163, 184, 0.5);
 }
 
 .cw-cell-input {
@@ -155,9 +198,14 @@ body {
 }
 
 .cw-controls {
-  display: flex;
-  flex-wrap: wrap;
+  display: none;
+  margin-top: 8px;
+  flex-direction: column;
   gap: 8px;
+}
+
+.cw-controls.cw-controls--open {
+  display: flex;
 }
 
 .cw-controls button {
@@ -206,6 +254,9 @@ body {
 /* Right panel (clues) */
 .cw-clues {
   min-width: 0;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
   background: radial-gradient(
     circle at top left,
     #eef2ff 0,
@@ -216,12 +267,12 @@ body {
   padding: 10px 12px;
   border: 1px solid rgba(148, 163, 184, 0.5);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 
   /* Keep clues reachable: panel can be shorter, but lists scroll */
-  max-height: min(82vh, 720px);
-  overflow: hidden;
+  max-height: min(82vh, 875px);
+  overflow: scroll;
 }
 
 .cw-clue-group {
@@ -298,6 +349,10 @@ body {
 
   .cw-main {
     gap: 12px;
+  }
+
+  .cw-layout-top {
+    justify-content: center;
   }
 
   .cw-clues {

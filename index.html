@@ -13,15 +13,31 @@
       </header>
 
       <main class="cw-main">
-        <section class="cw-grid-container">
-          <div id="cw-grid" class="cw-grid"></div>
-          <div class="cw-controls">
-            <button id="btn-check" type="button">Check</button>
-            <button id="btn-reveal-letter" type="button">Reveal letter</button>
-            <button id="btn-reveal-word" type="button">Reveal word</button>
-            <button id="btn-clear" type="button">Clear</button>
+        <section class="cw-layout-top">
+          <div class="cw-grid-container">
+            <div id="cw-grid" class="cw-grid"></div>
+            <div class="cw-status-row">
+              <div id="cw-status" class="cw-status" aria-live="polite"></div>
+              <button
+                id="btn-menu"
+                type="button"
+                class="cw-menu-button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-controls="cw-controls"
+              >
+                Menu
+              </button>
+            </div>
+            <div id="cw-controls" class="cw-controls">
+              <button id="btn-check" type="button">Check</button>
+              <button id="btn-reveal-letter" type="button">
+                Reveal letter
+              </button>
+              <button id="btn-reveal-word" type="button">Reveal word</button>
+              <button id="btn-clear" type="button">Clear</button>
+            </div>
           </div>
-          <div id="cw-status" class="cw-status" aria-live="polite"></div>
         </section>
 
         <section class="cw-clues">
